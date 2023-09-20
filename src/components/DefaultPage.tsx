@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const HomePage = () => {
+const DefaultPage = () => {
   return (
     <div className="flex flex-col items-center w-[22.5rem] mx-auto">
       <div className="h-[27.25rem] w-full mt-14 flex items-end">
@@ -34,4 +34,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default DefaultPage;

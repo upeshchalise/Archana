@@ -12,8 +12,8 @@ const PhoneNumber = () => {
   return (
     <div className="flex flex-col items-center w-[19.5rem] max-h-full mx-auto ">
       <Logo />
-      <section className=" rounded-lg w-full h-max-full flex flex-col text-center mt-10 pb-11 p-4 gap-3 z-40 opacity-100 bg-white shadow-customShadow">
-        <p className="mt-2 text-[#1F8F2A]">Enter Your Phone Number</p>
+      <section className=" rounded-lg w-full h-max-full flex flex-col text-center mt-10 pb-11 p-4 gap-4 z-40 opacity-100 bg-white shadow-customShadow">
+        <p className="mt-2 text-Green">Enter Your Phone Number</p>
         <p className="text-xs">
           We will send you the 6-digit verification code
         </p>
@@ -29,7 +29,7 @@ const PhoneNumber = () => {
         <Link href="/verification">
           <button
             type="button"
-            className="rounded-lg text-white font-semibold p-2 mt-6 bg-[#1F8F2A]"
+            className="rounded-lg text-white font-semibold w-full p-2 mt-6 bg-Green"
           >
             Generate OTP
           </button>
@@ -39,7 +39,7 @@ const PhoneNumber = () => {
         <p className="text-xs mt-3">
           New User?
           <Link href="/signup">
-            <span className="text-[#1F8F2A]">Register here</span>
+            <span className="text-Green">Register here</span>
           </Link>
         </p>
       </section>
